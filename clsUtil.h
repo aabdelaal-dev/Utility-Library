@@ -7,7 +7,7 @@
 
 using namespace std;
 
-class clsUtil : public clsDate
+class clsUtil 
 {
 
 public:
@@ -183,7 +183,7 @@ public:
 	static void Tabs(short NumOfTabs) {
 		for (int i = 0; i < NumOfTabs; i++)
 		{
-			cout << "	";
+			cout << "\t";
 		}
 	}
 
